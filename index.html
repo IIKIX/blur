@@ -1,0 +1,3240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>IIKIX</title>
+  <meta name="description" content="Responsive, Bootstrap, BS4" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- for ios 7 style, multi-resolution icon of 152x152 -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <meta name="apple-mobile-web-app-title" content="Flatkit">
+  <!-- for Chrome on Android, multi-resolution icon of 196x196 -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!-- <link rel="shortcut icon" sizes="196x196" href="images/logo.png"> -->
+  
+  <!-- style -->
+  <link rel="stylesheet" href="css/animate.css/animate.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/glyphicons/glyphicons.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/material-design-icons/material-design-icons.css" type="text/css" />
+  <link rel="stylesheet" href="css/ionicons/css/ionicons.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/simple-line-icons/css/simple-line-icons.css" type="text/css" />
+  <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+
+  <!-- build:css css/styles/app.min.css -->
+  <link rel="stylesheet" href="css/styles/app.css" type="text/css" />
+  <link rel="stylesheet" href="css/styles/style.css" type="text/css" />
+  <!-- endbuild -->
+  <link rel="stylesheet" href="css/styles/font.css" type="text/css" />
+</head>
+<body>
+  <div class="app" id="app">
+
+<!-- ############ LAYOUT START-->
+
+  <div id="aside" class="app-aside fade nav-dropdown black">
+    <!-- fluid app aside -->
+    <div class="navside dk" data-layout="column">
+      <div class="navbar no-radius">
+        <!-- brand -->
+        <a href="index.html" class="navbar-brand">
+        	<div data-ui-include="'images/logo.svg'"></div>
+        	<img src="images/ml.png" alt="." class="hide">
+        </a>
+        <!-- / brand -->
+      </div>
+      <div data-flex class="hide-scroll">
+          <nav class="scroll nav-stacked nav-stacked-rounded nav-color">
+            
+            <ul class="nav" data-ui-nav>
+              <li class="nav-header hidden-folded">
+                <span class="text-xs">Main</span>
+              </li>
+              <li>
+                <a data-toggle="tab" data-target="#tab_1">
+                  <span class="nav-icon text-white no-fade">
+                    <i class="material-icons md-24">apps</i>
+                  </span>
+                  <span class="nav-text">Home</span>
+                </a>
+              </li>
+              <li class="nav-header hidden-folded">
+                <span class="text-xs">Wiki</span>
+              </li>
+              <li>
+                <a>
+                  <!-- <span class="nav-caret">
+                    <i class="material-icons md-24"></i>
+                  </span> -->
+                  <span class="nav-icon">
+                    <i class="material-icons md-24">directions_car</i>
+                  </span>
+                  <span class="nav-text">Cars</span>
+                </a>
+                <ul class="nav-sub nav-mega nav-mega-3">
+                  <li class="nav-header hidden-folded m-t">
+                    <span class="text-xs">Regular</span>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#tab_3">
+                      <span class="nav-text">Class: A</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#tab_b">
+                      <span class="nav-text">Class: B</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#tab_c">
+                      <span class="nav-text">Class: C</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#tab_d">
+                      <span class="nav-text">Class: D</span>
+                    </a>
+                  </li>
+                  <li class="nav-header hidden-folded m-t">
+                    <span class="text-xs">Legendary</span>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#tab_legends">
+                      <span class="nav-text">Legend</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>
+                  <!-- <span class="nav-caret">
+                    <i class="material-icons md-24"></i>
+                  </span> -->
+                  <span class="nav-icon">
+                    <i class="material-icons md-24">directions</i>
+                  </span>
+                  <span class="nav-text">Maps</span>
+                </a>
+                <ul class="nav-sub nav-mega nav-mega-3">
+                  <li class="nav-header hidden-folded m-t">
+                    <span class="text-xs">Race</span>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_1">
+                      <span class="nav-text">Amboy</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_2">
+                      <span class="nav-text">Barcelona Gracia</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_3">
+                      <span class="nav-text">Barcelona Oval</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_4">
+                      <span class="nav-text">Brighton</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_5">
+                      <span class="nav-text">Hackney</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_6">
+                      <span class="nav-text">Hollywood Hills</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_7">
+                      <span class="nav-text">LA Docks</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_8">
+                      <span class="nav-text">LA Downtown</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_9">
+                      <span class="nav-text">LA River</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_10">
+                      <span class="nav-text">Mount Haruna</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_11">
+                      <span class="nav-text">NY Dumbo</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_12">
+                      <span class="nav-text">SanFran Russian Hill</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_13">
+                      <span class="nav-text">SanFran Sausalito</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_14">
+                      <span class="nav-text">Tokyo Shutoko</span>
+                    </a>
+                  </li>
+                  <li class="nav-header hidden-folded m-t">
+                    <span class="text-xs">Motor Mash</span>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_15">
+                      <span class="nav-text">Amboy</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_16">
+                      <span class="nav-text">Barcelona</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#map_17">
+                      <span class="nav-text">LA Downtown</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a data-toggle="tab" data-target="#modshop">
+                  <span class="nav-icon text-white no-fade">
+                    <i class="material-icons md-24">explore</i>
+                  </span>
+                  <span class="nav-text">Mods</span>
+                </a>
+              </li>
+              <li class="nav-header hidden-folded">
+                <span class="text-xs">Theme Switcher</span>
+              </li>
+              <li>
+                <a class="b" data-ui-toggle-class="active" data-ui-target="#sw-theme" class="dark-white sw-btn">
+                  <span class="nav-icon text-white no-fade">
+                    <i class="material-icons md-24">settings</i>
+                  </span>
+                  <span class="nav-text">Settings</span>
+                </a>
+              </li>
+              <!-- <li>
+                <a>
+                   <span class="nav-caret">
+                    <i class="material-icons md-24"></i>
+                  </span> 
+                  <span class="nav-icon">
+                    <i class="material-icons md-24">favorite</i>
+                  </span>
+                  <span class="nav-text">Bonus</span>
+                </a>
+                <ul class="nav-sub nav-mega nav-mega-3">
+                  <li class="nav-header hidden-folded m-t">
+                    <span class="text-xs">Yellow Style</span>
+                  </li>
+                  <li>
+                    <a data-toggle="tab" data-target="#tab_3">
+                      <span class="nav-text">Mod Shop 1</span>
+                    </a>
+                  </li>
+                </ul>
+              </li> -->
+            </ul>
+          </nav>
+      </div>
+    </div>
+  </div>
+  <!-- / -->
+
+  <!-- content -->
+  <div id="content" class="app-content" role="main">
+    <div class="app-body">
+      <div class="app-header white bg b-b">
+      <div class="navbar" data-pjax>
+      <a data-toggle="modal" data-target="#aside" class="navbar-item pull-left hidden-lg-up p-r m-a-0 pull-right text-primary">
+        <i class="ion-navicon"></i>
+      </a>
+      <h6 class="pull-center text-primary"><b>IIKIX</b></h6>
+      </div>
+      </div>
+
+<!-- ############ PAGE START-->
+  <!-- <div class="white bg b-b p-x">
+    <div class="row">
+      <div class="col-sm-6 push-sm-6">
+        <div class="p-y text-center text-sm-right">
+          <a href="#" class="inline p-x text-center">
+            <span class="h4 block m-a-0">2k</span>
+            <small class="text-xs text-muted">Followers</small>
+          </a>
+          <a href="#" class="inline p-x b-l b-r text-center">
+            <span class="h4 block m-a-0">250</span>
+            <small class="text-xs text-muted">Following</small>
+          </a>
+          <a href="#" class="inline p-x text-center">
+            <span class="h4 block m-a-0">89</span>
+            <small class="text-xs text-muted">Activities</small>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 pull-sm-6">
+        <div class="p-y-md clearfix nav-active-info">
+          <ul class="nav nav-pills nav-sm">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" data-toggle="tab" data-target="#tab_1">Activities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="tab" data-target="#tab_2">Stream</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="tab" data-target="#tab_3">Friends</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="tab" data-target="#tab_4">Profile</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <img src="images/blur.png" alt="." class="w-full">
+  <div class="padding">
+    <div class="row">
+      <div class="col-sm-8 col-lg-9">
+        <div class="tab-content">
+
+          <div class="tab-pane p-v-sm active" id="tab_1">
+            <div class="streamline">
+      <div class="box">
+        <div class="box-header">
+          <h3>Blur</h3>
+          <small>(stylized as blur)</small>
+        </div>
+        <div class="box-body">
+          <p class="m-a-0">is a 2010 arcade-style racing vehicular combat video game for Microsoft Windows, PlayStation 3 and Xbox 360. It was developed by Bizarre Creations and published by Activision. Blur features a racing style that incorporates real world cars and locales with arcade style handling and vehicular combat.</p>
+          <p></p>
+          <p class="m-a-0">Multiplayer<br>The game can be played with up to four players in split screen, and can be taken online for a maximum of 20 players over the internet, or over LAN in the PC, Xbox 360, and PlayStation 3 versions. In a custom game, options can be set before each match that determine the layout of power-ups, car classes, number of laps, and the car to race. A match type called "World Tour" is essentially a quick play option for players who want to jump into a match. Here, every player is given a random car and thrown into a random series of courses with a standard ruleset. Multiplayer also offers "Team Racing" mode. Two teams (Alpha & Omega) can put themselves head to head either publicly or private. During races, each player accumulates points for their finishing position. While in team racing, powerups will not affect the player's own team members with the exception of Shock. Players can send a racing challenge to an online friend. If the second player beats the time, they can send the updated challenge back. These challenges go back and forth until one person concedes. Players can also use the Share button, and post their achievements to Twitter and Facebook. </p>
+        </div>
+      </div>
+    <br>
+
+    <div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Power Up</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <span class="text-x text-primary">Barge</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/powerups/Barge.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Power Up</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <span class="text-x text-primary">Bolt</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/powerups/Bolt.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Power Up</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <span class="text-x text-primary">Mine</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/powerups/Mine.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Power Up</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <span class="text-x text-primary">Nitro</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/powerups/Nitro.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+
+          <div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Power Up</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <span class="text-x text-primary">Repair</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/powerups/Repair.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Power Up</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <span class="text-x text-primary">Shield</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/powerups/Shield.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Power Up</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <span class="text-x text-primary">Shock</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/powerups/Shock.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Power Up</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <span class="text-x text-primary">Shunt</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/powerups/Shunt.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+
+            </div>
+          </div>
+
+		  <div class="tab-pane p-v-sm" id="tab_3">
+        <div class="box-body">
+            <h5 class="m-a-0 text-primary">∞ Class A:</h5>
+          </div>
+
+          <div class="col-md-12">
+          <div class="row">
+
+             <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/1.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Opel Astra Extreme">Opel Astra Extreme<br>Rank: 1<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/5.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Audi R8 4.2 FSI Quattro">Audi R8 4.2 FSI Quattro<br>Rank: 5<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/9.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Ford FR-100">Ford FR-100<br>Rank: 9<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/18.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Corvette C3 (Drag)">Corvette C3 (Drag)<br>Rank: 18<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/21.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Chevrolet Camaro SS (Drag)">Chevrolet Camaro SS (Drag)<br>Rank: 21<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/25.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Ford Mustang GT-R Concept">Ford Mustang GT-R Concept<br>Rank: 25<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/27.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Vauxhall Monaro VXR (Drift)">Vauxhall Monaro VXR (Drift)<br>Rank: 27<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/30.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Dodge Viper GTSR">Dodge Viper GTSR<br>Rank: 30<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/32.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Renault Mégane Trophy">Renault Mégane Trophy<br>Rank: 32<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/35.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Nissan Skyline GT-R NISMO Z-tune">Nissan Skyline GT-R NISMO Z-tune<br>Rank: 35<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/40.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Ford Transit Supervan3">Ford Transit Supervan3<br>Rank: 40<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/43.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Corvette C3 (Race)">Corvette C3 (Race)<br>Rank: 43<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/46.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Dodge Challenger (Race)">Dodge Challenger (Race)<br>Rank: 46<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/48.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Dodge Viper Venom 1000">Dodge Viper Venom 1000<br>Rank: 48<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classA/50.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Koenigsegg CCX-R">Koenigsegg CCX-R<br>Rank: 50<br>Class A</div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+            </div>
+
+          </div>
+		  
+
+      <div class="tab-pane p-v-sm" id="tab_b">
+        <div class="box-body">
+            <h5 class="m-a-0 text-primary">∞ Class B:</h5>
+          </div>
+				
+          <div class="col-md-12">
+          <div class="row">
+
+             <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/1.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="BMW Concept 1 Series tii (Race)">BMW Concept 1 Series tii (Race)<br>Rank: 1<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Ford F-100 (Off-Road)">Ford F-100 (Off-Road)<br>Rank: 2<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/4.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Ford Focus RS (Race)">Ford Focus RS (Race)<br>Rank: 4<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/7.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Bowler Nemesis">Bowler Nemesis<br>Rank: 7<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/10.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Lotus Exige Cup 260">Lotus Exige Cup 260<br>Rank: 10<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/16.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Volkswagen Scirocco 24">Volkswagen Scirocco 24<br>Rank: 16<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/20.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Dodge Challenger SRT8 (Tuner)">Dodge Challenger SRT8 (Tuner)<br>Rank: 20<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/23.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Ford GT">Ford GT<br>Rank: 23<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/27.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Dodge Viper ACR">Dodge Viper ACR<br>Rank: 27<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/33.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Corvette C3 (Rat)">Corvette C3 (Rat)<br>Rank: 33<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/36.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Chevrolet HHR (Race)">Chevrolet HHR (Race)<br>Rank: 36<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/39.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Chevrolet Corvette ZR1">Chevrolet Corvette ZR1<br>Rank: 39<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/42.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="BMW X5 xDrive48i M Sport">BMW X5 xDrive48i M Sport<br>Rank: 42<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/49.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Volkswagen Golf W12 650">Volkswagen Golf W12 650<br>Rank: 49<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classB/50.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="BMW M3 E92 (Drift)">BMW M3 E92 (Drift)<br>Rank: 50<br>Class B</div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+            </div>
+
+          </div>
+		  
+
+      <div class="tab-pane p-v-sm" id="tab_c">
+        <div class="box-body">
+            <h5 class="m-a-0 text-primary">∞ Class C:</h5>
+          </div>
+
+          <div class="col-md-12">
+          <div class="row">
+
+             <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/1.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Audi TTS Coupé">Audi TTS Coupé<br>Rank: 1<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Volkswagen Bettle (Off-Road)">Volkswagen Bettle (Off-Road)<br>Rank: 2<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/4.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Chevrolet Camaro SS">Chevrolet Camaro SS<br>Rank: 4<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/7.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Ford Bronco (Off-Road)">Ford Bronco (Off-Road)<br>Rank: 7<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/8.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Hummer H2 (Rat)">Hummer H2 (Rat)<br>Rank: 8<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/12.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Ford F-100 (Rat)">Ford F-100 (Rat)<br>Rank: 12<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/16.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Ford Shelby GT500">Ford Shelby GT500<br>Rank: 16<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/21.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Ford F-150 SVT Raptor (Off-Road)">Ford F-150 SVT Raptor (Off-Road)<br>Rank: 21<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/24.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Nissan 350Z (Drift)">Nissan 350Z (Drift)<br>Rank: 24<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/26.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Land Rover LRX">Land Rover LRX<br>Rank: 26<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/29.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Hummer H2 (Off-Road)">Hummer H2 (Off-Road)<br>Rank: 29<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/33.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Toyota Supra (Smooth)">Toyota Supra (Smooth)<br>Rank: 33<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/37.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Foose 69 Camaro">Foose 69 Camaro<br>Rank: 37<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/41.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Nissan Navara (Rat)">Nissan Navara (Rat)<br>Rank: 41<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classC/50.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="BMW M3 E92 (Tuner)">BMW M3 E92 (Tuner)<br>Rank: 50<br>Class C</div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+            </div>
+
+          </div>
+
+      <div class="tab-pane p-v-sm" id="tab_d">
+        <div class="box-body">
+            <h5 class="m-a-0 text-primary">∞ Class D:</h5>
+          </div>
+
+          <div class="col-md-12">
+          <div class="row">
+
+             <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/1.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Audi S3">Audi S3<br>Rank: 1<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Volkswagen Beetle (Rat)">Volkswagen Beetle (Rat)<br>Rank: 2<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/4.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Renault R230 F1 Team R26">Renault R230 F1 Team R26<br>Rank: 4<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/7.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Land Rover Defender SVX">Land Rover Defender SVX<br>Rank: 7<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/10.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Rat Rod">Rat Rod<br>Rank: 10<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/14.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Foose Stallion Ford Mustang">Foose Stallion Ford Mustang<br>Rank: 14<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/17.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="BMW Concept 1 Series tii">BMW Concept 1 Series tii<br>Rank: 17<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/19.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Nissan 350Z NISMO Z-tune">Nissan 350Z NISMO Z-tune<br>Rank: 19<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/23.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Ford Focus RS">Ford Focus RS<br>Rank: 23<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/25.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Chevrolet Camaro">Chevrolet Camaro<br>Rank: 25<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/28.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Nissan Navara (Off-Road)">Nissan Navara (Off-Road)<br>Rank: 28<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/31.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Dodge Challenger SRT8">Dodge Challenger SRT8<br>Rank: 31<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/34.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Chevrolet Camaro (Rat)">Chevrolet Camaro (Rat)<br>Rank: 34<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/39.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Toyota Supra">Toyota Supra<br>Rank: 39<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/classD/44.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="AC Schnitzer ACS1 Coupé">AC Schnitzer ACS1 Coupé<br>Rank: 44<br>Class D</div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+            </div>
+
+          </div>
+
+          <div class="tab-pane p-v-sm" id="tab_legends">
+        <div class="box-body">
+            <h5 class="m-a-0 text-primary">∞ Legendary:</h5>
+          </div>
+          
+          <div class="col-md-12">
+          <div class="row">
+
+             <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/legendary/i.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="AC Schnitzer Legendary ACS1 Coupé">AC Schnitzer Legendary ACS1 Coupé<br>Rank X: I<br>Legendary</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/legendary/ii.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Chevrolet Legendary Camaro SS">Chevrolet Legendary Camaro SS<br>Rank X: II<br>Legendary</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/legendary/iii.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Dodge Legendary Viper ACR">Dodge Legendary Viper ACR<br>Rank X: III<br>Legendary</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/legendary/iv.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Vauxhall Legendary Monaro VXR">Vauxhall Legendary Monaro VXR<br>Rank X: IV<br>Legendary</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/legendary/v.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Dodge Legendary Challenger SRT8">Dodge Legendary Challenger SRT8<br>Rank X: V<br>Legendary</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/legendary/vi.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Audi Legendary TTS Coupé">Audi Legendary TTS Coupé<br>Rank X: VI<br>Legendary</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/legendary/vii.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Bowler Legendary Nemesis">Bowler Legendary Nemesis<br>Rank X: VII<br>Legendary</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/legendary/viii.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Opel Legendary Astra Extreme">Opel Legendary Astra Extreme<br>Rank X: VIII<br>Legendary</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/legendary/ix.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="BMW Legendary M3 (E92)">BMW Legendary M3 (E92)<br>Rank X: IX<br>Legendary</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-2">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/legendary/x.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis" title="Ford Legendary Mustang GT-R Concept">Ford Legendary Mustang GT-R Concept<br>Rank X: X<br>Legendary</div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+            </div>
+
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_1">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Badlands Traverse</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/amboy.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Amboy</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Route 66</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/amboy2.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Amboy</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_2">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Catalan Climb</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/bg.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Barcelona Gracia</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">EI Carmel Heights</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/bg2.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Barcelona Gracia</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Passeig de Gracia</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/bg3.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Barcelona Gracia</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_3">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">City Breach</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/bo.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Barcelona Oval</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Speedway</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/bo2.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Barcelona Oval</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_4">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Coastal Cruise</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/br.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Brighton</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Promenade Loop</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/br2.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Brighton</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Seafront Strip</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/br3.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Brighton</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+           <div class="tab-pane p-v-sm" id="map_5">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Central Sprint</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/hack.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Hackney</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Shoreditch Sweep</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/hack2.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Hackney</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Urban Belt</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/hack3.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Hackney</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_6">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Downtown Vista</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/hollywood.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Hollywood Hills</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Hollywood Rift</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/hollywood2.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Hollywood Hills</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_7">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Cargo Run</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/docks.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">LA Docks</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Pacific Reach</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/docks2.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">LA Docks</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_8">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Harbor Freeway</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/downtown.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">LA Downtown</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Highrise Ring</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/downtown2.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">LA Downtown</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">The Money Run</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/downtown3.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">LA Downtown</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+          
+          <div class="tab-pane p-v-sm" id="map_9">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Concrete Basin</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/river.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">LA River</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Stormdrain Surge</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/river2.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">LA River</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_10">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Descent</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/descent.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Mount Haruna</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_11">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Brooklyn Tour</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/dumbo.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">NY Dumbo</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Manhattan View</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/dumbo2.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">NY Dumbo</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_12">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Russian Steppes</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/rus.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">SanFran Russian Hill</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_13">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Bay Area Tour</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/sf.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">SanFran Sausalito</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Golden Gate Rush</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/sf2.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">SanFran Sausalito</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_14">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Bayshore Route</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/tokyo.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Tokyo Shutoko</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Wangan-sen</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/race/tokyo2.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Tokyo Shutoko</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_15">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">The Dust Bowl</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/motormach/ambo.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Amboy</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+           <div class="tab-pane p-v-sm" id="map_16">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">La Carretera</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/motormach/bar.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">Barcelona</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="map_17">
+				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
+					margin: 20,
+					responsiveClass:true,
+				    responsive:{
+				    	0:{
+				    		items: 2
+				    	},
+				        543:{
+				            items: 3
+				        }
+				      }
+				    }">
+
+				      <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">Figure of 8</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/motormach/8.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">LA Downtown</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+            <div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>✩</sup>
+                      <!-- <span class="text-2x">Map</span> -->
+                      <span class="text-x text-primary">LA Heights</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/maps/motormach/heights.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center p-a-md">
+                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
+                  <span class="text-2x text-primary">LA Downtown</span>
+                </div>
+
+                </div>
+              </div>
+			      </div>
+
+          </div>
+          </div>
+
+          <div class="tab-pane p-v-sm" id="modshop">
+
+          <div class="col-sm-6">
+      <div class="list box">
+        <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Stable_Frame.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-info">Stable Frame</a>
+            <small class="block text-muted">You take less damage from collisions and are immune to Battering Ram<br>Rank: 3</small>
+          </div>
+        </div>
+
+        <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Showy_Flourish.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-info">Showy Flourish</a>
+            <small class="block text-muted">Gain bonus fans each time you damage an opponent with power-ups<br>Rank: 6</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Iron_Fist.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-info">Iron Fist</a>
+            <small class="block text-muted">Your Shunt attacks deal more damage<br>Rank: 20</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Drifter.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-info">Drifter</a>
+            <small class="block text-muted">You receive a Nitro each time you perform a Super Drift<br>Rank: 32</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Safety_Net.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-warning">Safety Net</a>
+            <small class="block text-muted">Any Power-up that hits you while your Shield is active repairs a small amount of damage<br>Rank: 3</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Shielding_Efficiency.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-warning">Shielding Efficiency</a>
+            <small class="block text-muted">Your Shield is active for longer and can sustain an extra hit from a Shock blast<br>Rank: 9</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Scrambler.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-warning">Scrambler</a>
+            <small class="block text-muted">Reverse Power-up attacks temporarily block your opponents from firing Power-ups<br>Rank: 22</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Magnetic_Field.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-warning">Magnetic Field</a>
+            <small class="block text-muted">You can pick up Power-ups from further away<br>Rank: 35</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Laser_Sight.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-success">Laser Sight</a>
+            <small class="block text-muted">Adds a laser sight to assist with aiming Bolt shots<br>Rank: 3</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/ECM.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-success">ECM</a>
+            <small class="block text-muted">Shunts are easier to evade<br>Rank: 10</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Vampire_Wreck.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-success">Vampiric Wreck</a>
+            <small class="block text-muted">Repairs your vehicle each time you Wreck an opponent<br>Rank: 25</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Last_Grasp.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-success">Last Gasp</a>
+            <small class="block text-muted">Primes your car with explosives that you can detonate after you get Wrecked<br>Rank: 38</small>
+          </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="list box">
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Battering_Ram.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-info">Battering Ram</a>
+            <small class="block text-muted">Increases the force of your rams and deals extra damage<br>Rank: 3</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Titanium_Armor.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-info">Titanium Armor</a>
+            <small class="block text-muted">Your vehicle takes half damage from standard power-up attacks<br>Rank: 13</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Front_Runner.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-info">Front Runner</a>
+            <small class="block text-muted">You receive a Nitro for every lap you complete<br>Rank: 28</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Jump_The_Gun.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-info">Jump The Gun</a>
+            <small class="block text-muted">You respawn faster and get a speed boost after being Wrecked or Reset<br>Rank: 45</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Adaptive_Shielding.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-warning">Adaptive Shielding</a>
+            <small class="block text-muted">Shunts, Barges and Mines that hit your Shield are converted into Power-ups<br>Rank: 3</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Splash_Damage.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-warning">Splash Damage</a>
+            <small class="block text-muted">Increases the blast radius of your Barge attacks<br>Rank: 17</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Shielded_Bay.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-warning">Shielded Bay</a>
+            <small class="block text-muted">You are immune to Scrambler attacks and may safely pick up Decoy Power-ups<br>Rank: 22</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Decoy_Drop.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-warning">Decoy Drop</a>
+            <small class="block text-muted">Dropped Power-ups become Decoys that explode when picked up by other drivers<br>Rank: 40</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Fan_Favourite.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-success">Fan Favorite</a>
+            <small class="block text-muted">Gain extra Fans for your Finish Bonus<br>Rank: 3</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Bribe.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-success">Bribe</a>
+            <small class="block text-muted">Get a random Power-up at the start as well as each time you respawn after being Wrecked<br>Rank: 15</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Mastermine.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-success">Mastermine</a>
+            <small class="block text-muted">Drive close by Mines to detonate them into multiple explosive fragments<br>Rank: 30</small>
+          </div>
+        </div>
+
+         <div class="list-item">
+          <div class="list-left">
+            <img alt="." src="images/modshop/Silent_Running.png" class="w-40 circle">
+          </div>
+          <div class="list-body">
+            <a class="_500 text-success">Silent Running</a>
+            <small class="block text-muted">Turns your car invisible unless you fire or take damage<br>Rank: 47</small>
+          </div>
+        </div>
+
+        </div>
+        </div>
+
+        </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-lg-3">
+        <div>
+          <!-- <div class="box">
+              <div class="box-header">
+                <h3 class="text-center text-primary">ッ</h3>
+				<p class="text-primary">Hi guys!<br>Here i publish my unique works that i made in the game.<br>Thanks ;)</p>
+              </div>
+          </div>
+
+           <div class="">
+					    	<div class="item r" data-id="item-1" data-src="">
+								<div class="item-media item-media-4by3">
+									<a class="item-media-content" style="background-image: url('images/ml.png');"></a>
+								</div>
+								<div class="item-info">
+									<div class="item-overlay bottom text-center">
+									</div>
+									<div class="item-overlay bottom text-right">
+										<a href="#" class="btn-favorite"><i class="material-icons">file_download</i></a>
+									</div>
+								</div>
+							</div>
+						</div> -->
+
+			<div class="col-sm-12">
+                <div class="box">
+                  <div class="box-body text-center r-t">
+                    <h6 class="text-u-c p-v-sm m-a-0 m-t">About</h6>
+                    <h3 class="m-a-0 m-l m-v">
+                      <sup>∞</sup>
+                      <span class="text-2x">ッ</span>
+                      <span class="text-xs">IIKIX</span>
+                    </h3>
+                  </div>
+
+                  <div class="">
+                    <div class="item r" data-id="item-1" data-src="">
+                    <div class="item-media item-media-4by3">
+                      <a class="item-media-content" style="background-image: url('images/logo.png');"></a>
+                    </div>
+                    <div class="item-info">
+                      <div class="item-overlay bottom text-center">
+                      </div>
+                      <div class="item-overlay bottom text-right">
+                        <a href="#" class="btn-favorite"></a>
+              
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="box-body">
+                    <h6 class="m-a-0">website is based on Aside (admin panel), the purpose of the site is a wiki for the game Blur</h6>
+                  </div>
+				
+                <!-- <div class="text-center p-a-md">
+                  <button class="md-btn md-flat m-b-sm w-xs text-primary" disabled>Discord</button>
+                </div> -->
+                <form action="#" class="m-b-md">
+                  <div class="input-group input-group-lg">
+      <input type="text" class="form-control" placeholder="Type keyword">
+      <span class="input-group-btn">
+        <button class="btn b-a no-shadow white" type="button">Search</button>
+      </span>
+    </div>
+  </form>
+              <div class="box m-b-md text-center">
+                <div data-ui-jp="summernote" data-ui-options="{height: 150,
+                  toolbar: [
+                    ['color', ['color']],
+                    ['para', ['ul', 'ol', 'paragraph']],
+                    ['style', ['bold', 'italic', 'underline', 'clear']],
+                    ['height', ['height']]
+                  ]}">
+                </div>
+              </div>
+
+                <div class="btn-groups m-b text-center">
+                    <a href="https://github.com/IIKIX/iikix.github.io" class="btn btn-icon btn-social white btn-sm">
+                  <i class="fa fa-github"></i>
+                  <i class="fa fa-github"></i>
+                </a>
+                <!-- <a href="#" class="btn btn-icon btn-social white btn-sm" title="Facebook" >
+                  <i class="fa fa-github"></i>
+                  <i class="fa fa-github"></i>
+                </a>
+                <a href="#" class="btn btn-icon btn-social white btn-sm" title="Facebook" >
+                  <i class="fa fa-github"></i>
+                  <i class="fa fa-github"></i>
+                </a> -->
+                </div>
+                <br>
+                </div>
+              </div>
+			  </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- ############ PAGE END-->
+
+    </div>
+  </div>
+  <!-- / -->
+
+  <div class="footer black text-info-hover box">
+  	<div class="container">
+  		<div class="p-y-lg">
+  			<div class="m-b-lg text-sm">
+  				
+  				<div class="text-muted pull-right pull-none-xs m-b">
+  					<span class="text-primary">IIKIX based on aside &copy; All rights reserved!<br></span>
+  				</div>
+  				<div>
+
+  				</div>
+  	    </div>
+  		</div>
+  	</div>
+  </div>
+
+<!-- ############ LAYOUT END-->
+
+ <!-- ############ SWITHCHER START-->
+    <div id="switcher">
+      <div class="switcher black" id="sw-theme">
+        <!-- <a href="#" data-ui-toggle-class="active" data-ui-target="#sw-theme" class="dark-white sw-btn">
+          <i class="fa fa-gear text-muted"></i>
+        </a> -->
+        <div class="box-header">
+          <strong>Theme Switcher</strong>
+        </div>
+        <div class="box-divider"></div>
+        <div class="box-body">
+          <p id="settingLayout" class="hidden-md-down">
+            <label class="md-check m-y-xs" data-target="folded">
+              <input type="checkbox">
+              <i></i>
+              <span>Folded Aside</span>
+            </label>
+            <label class="m-y-xs pointer" data-ui-fullscreen data-target="fullscreen">
+              <span class="fa fa-expand fa-fw m-r-xs"></span>
+              <span>Fullscreen Mode</span>
+            </label>
+          </p>
+          <p>Colors:</p>
+          <p data-target="color">
+            <label class="radio radio-inline m-a-0 ui-check ui-check-color ui-check-md">
+              <input type="radio" name="color" value="primary">
+              <i class="primary"></i>
+            </label>
+            <label class="radio radio-inline m-a-0 ui-check ui-check-color ui-check-md">
+              <input type="radio" name="color" value="accent">
+              <i class="accent"></i>
+            </label>
+            <label class="radio radio-inline m-a-0 ui-check ui-check-color ui-check-md">
+              <input type="radio" name="color" value="warn">
+              <i class="warn"></i>
+            </label>
+          </p>
+          <p>Themes:</p>
+          <div data-target="bg" class="clearfix">
+            <label class="radio radio-inline m-a-0 ui-check ui-check-lg">
+              <input type="radio" name="theme" value="">
+              <i class="light"></i>
+            </label>
+            <label class="radio radio-inline m-a-0 ui-check ui-check-color ui-check-lg">
+              <input type="radio" name="theme" value="black">
+              <i class="black"></i>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- ############ SWITHCHER END-->
+  </div>
+
+<!-- build:js scripts/app.min.js -->
+<!-- jQuery -->
+  <script src="libs/jquery/dist/jquery.js"></script>
+<!-- Bootstrap -->
+  <script src="libs/tether/dist/js/tether.min.js"></script>
+  <script src="libs/bootstrap/dist/js/bootstrap.js"></script>
+<!-- core -->
+  <script src="libs/jQuery-Storage-API/jquery.storageapi.min.js"></script>
+  <script src="libs/PACE/pace.min.js"></script>
+  <script src="libs/jquery-pjax/jquery.pjax.js"></script>
+  <script src="libs/blockUI/jquery.blockUI.js"></script>
+  <script src="libs/jscroll/jquery.jscroll.min.js"></script>
+
+  <script src="scripts/config.lazyload.js"></script>
+  <script src="scripts/ui-load.js"></script>
+  <script src="scripts/ui-jp.js"></script>
+  <script src="scripts/ui-include.js"></script>
+  <script src="scripts/ui-device.js"></script>
+  <script src="scripts/ui-form.js"></script>
+  <script src="scripts/ui-modal.js"></script>
+  <script src="scripts/ui-nav.js"></script>
+  <script src="scripts/ui-list.js"></script>
+  <script src="scripts/ui-screenfull.js"></script>
+  <script src="scripts/ui-scroll-to.js"></script>
+  <script src="scripts/ui-toggle-class.js"></script>
+  <script src="scripts/ui-taburl.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/ajax.js"></script>
+<!-- endbuild -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+    new Crate({
+      server: '1404730840562401361',
+      channel: '1404754963762249800',
+      glyph: ['images/ml.png', '100%'],
+      color: '#000'
+    })
+  </script> -->
+
+</body>
+</html>
