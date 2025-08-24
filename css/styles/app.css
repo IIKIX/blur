@@ -3257,7 +3257,8 @@ Plugins
   background-clip: padding-box; }
   .switcher.active {
     right: -2px;
-    z-index: 1060; }
+    z-index: 1060;
+    background-color: #000; }
 
 .switcher .sw-btn {
   position: absolute;
@@ -3752,9 +3753,9 @@ Colors
 
 .black {
   color: rgba(225, 235, 245, 0.87);
-  background-color: #17171b; }
+  background-color: #111113; }
   .black .lt {
-    background-color: #17171b; }
+    background-color: #111113; }
   .black .dk {
     background-color: #000000; }
   .black .bg {
@@ -4735,7 +4736,7 @@ a.text-accent:hover {
   color: #00d2ff !important; }
 
 a.success:hover {
-  background-color: #1fa765; }
+  background-color: #aff742; }
 
 a.text-success:hover {
   color: #aff742; }

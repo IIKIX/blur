@@ -55,7 +55,7 @@
                 <span class="text-xs">Main</span>
               </li>
               <li>
-                <a data-toggle="tab" data-target="#tab_1">
+                <a class="b-primary" data-toggle="tab" data-target="#tab_1">
                   <span class="nav-icon text-white no-fade">
                     <i class="material-icons md-24">apps</i>
                   </span>
@@ -66,11 +66,11 @@
                 <span class="text-xs">Wiki</span>
               </li>
               <li>
-                <a>
+                <a class="b-primary">
                   <!-- <span class="nav-caret">
                     <i class="material-icons md-24"></i>
                   </span> -->
-                  <span class="nav-icon">
+                  <span class="nav-icon text-white no-fade">
                     <i class="material-icons md-24">directions_car</i>
                   </span>
                   <span class="nav-text">Cars</span>
@@ -118,11 +118,11 @@
                 </ul>
               </li>
               <li>
-                <a>
+                <a class="b-primary">
                   <!-- <span class="nav-caret">
                     <i class="material-icons md-24"></i>
                   </span> -->
-                  <span class="nav-icon">
+                  <span class="nav-icon text-white no-fade">
                     <i class="material-icons md-24">directions</i>
                   </span>
                   <span class="nav-text">Maps</span>
@@ -222,18 +222,26 @@
                 </ul>
               </li>
               <li>
-                <a data-toggle="tab" data-target="#modshop">
+                <a class="b-primary" data-toggle="tab" data-target="#modshop">
                   <span class="nav-icon text-white no-fade">
-                    <i class="material-icons md-24">explore</i>
+                    <i class="material-icons md-24">star</i>
                   </span>
                   <span class="nav-text">Mods</span>
+                </a>
+              </li>
+              <li>
+                <a class="b-primary" data-toggle="tab" data-target="#powerups">
+                  <span class="nav-icon text-white no-fade">
+                    <i class="material-icons md-24">tap_and_play</i>
+                  </span>
+                  <span class="nav-text">Power-Up</span>
                 </a>
               </li>
               <li class="nav-header hidden-folded">
                 <span class="text-xs">Amax Emu</span>
               </li>
               <li>
-                <a href="https://amax-emu.com/Dashboard">
+                <a class="b-primary" href="https://amax-emu.com/Dashboard">
                   <span class="nav-icon text-white no-fade">
                     <i class="material-icons md-24">favorite</i>
                   </span>
@@ -241,10 +249,21 @@
                 </a>
               </li>
               <li class="nav-header hidden-folded">
+                <span class="text-xs">Community</span>
+              </li>
+              <li>
+                <a class="b-primary" href="https://discord.gg/blurcommunity">
+                  <span class="nav-icon text-white no-fade">
+                    <i class="material-icons md-24">favorite</i>
+                  </span>
+                  <span class="nav-text">Blur</span>
+                </a>
+              </li>
+              <li class="nav-header hidden-folded">
                 <span class="text-xs">Theme Switcher</span>
               </li>
               <li>
-                <a class="b" data-ui-toggle-class="active" data-ui-target="#sw-theme" class="dark-white sw-btn">
+                <a class="b-primary" class="b" data-ui-toggle-class="active" data-ui-target="#sw-theme" class="dark-white sw-btn">
                   <span class="nav-icon text-white no-fade">
                     <i class="material-icons md-24">settings</i>
                   </span>
@@ -263,10 +282,9 @@
     <div class="app-body">
       <div class="app-header white bg b-b">
       <div class="navbar" data-pjax>
-      <a data-toggle="modal" data-target="#aside" class="navbar-item pull-left hidden-lg-up p-r m-a-0 pull-right text-primary">
+      <a data-toggle="modal" data-target="#aside" class="navbar-item pull-left hidden-lg-up p-r m-a-0 pull-left text-primary">
         <i class="ion-navicon"></i>
       </a>
-      <h6 class="pull-center text-primary"><b>IIKIX</b></h6>
       </div>
       </div>
 
@@ -274,7 +292,9 @@
   <div class="padding">
     <div class="row">
       <br>
-      <img src="images/iikix/blur2.png" alt="." class="w-full">
+      <div class="box">
+        <img src="images/iikix/blur2.png" alt="." class="w-full">
+      </div>
       <div class="col-sm-8 col-lg-9">
         <div class="tab-content">
 
@@ -292,85 +312,6 @@
           <p class="m-a-0 text-muted">The game can be played with up to four players in split screen, and can be taken online for a maximum of 20 players over the internet, or over LAN in the PC, Xbox 360, and PlayStation 3 versions. In a custom game, options can be set before each match that determine the layout of power-ups, car classes, number of laps, and the car to race. A match type called "World Tour" is essentially a quick play option for players who want to jump into a match. Here, every player is given a random car and thrown into a random series of courses with a standard ruleset. Multiplayer also offers "Team Racing" mode. Two teams (Alpha & Omega) can put themselves head to head either publicly or private. During races, each player accumulates points for their finishing position. While in team racing, powerups will not affect the player's own team members with the exception of Shock. Players can send a racing challenge to an online friend. If the second player beats the time, they can send the updated challenge back. These challenges go back and forth until one person concedes. Players can also use the Share button, and post their achievements to Twitter and Facebook. </p>
         </div>
       </div>
-    <br>
-
-    <div class="col-md-12">
-          <div class="row">
-
-             <div class="col-xs-6 col-sm-6 col-md-3">
-              <div class="box p-a-xs">
-                <a href="#"><img src="images/powerups/Barge.png" alt="" class="img-responsive"></a>
-                <div class="p-a-sm">
-                  <div class="text-ellipsis">Power Up<br>Barge</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-3">
-              <div class="box p-a-xs">
-                <a href="#"><img src="images/powerups/Bolt.png" alt="" class="img-responsive"></a>
-                <div class="p-a-sm">
-                  <div class="text-ellipsis">Power Up<br>Bolt</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-3">
-              <div class="box p-a-xs">
-                <a href="#"><img src="images/powerups/Nitro.png" alt="" class="img-responsive"></a>
-                <div class="p-a-sm">
-                  <div class="text-ellipsis">Power Up<br>Nitro</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-3">
-              <div class="box p-a-xs">
-                <a href="#"><img src="images/powerups/Mine.png" alt="" class="img-responsive"></a>
-                <div class="p-a-sm">
-                  <div class="text-ellipsis">Power Up<br>Mine</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-3">
-              <div class="box p-a-xs">
-                <a href="#"><img src="images/powerups/Repair.png" alt="" class="img-responsive"></a>
-                <div class="p-a-sm">
-                  <div class="text-ellipsis">Power Up<br>Repair</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-3">
-              <div class="box p-a-xs">
-                <a href="#"><img src="images/powerups/Shunt.png" alt="" class="img-responsive"></a>
-                <div class="p-a-sm">
-                  <div class="text-ellipsis">Power Up<br>Shunt</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-3">
-              <div class="box p-a-xs">
-                <a href="#"><img src="images/powerups/Shock.png" alt="" class="img-responsive"></a>
-                <div class="p-a-sm">
-                  <div class="text-ellipsis">Power Up<br>Shock</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-3">
-              <div class="box p-a-xs">
-                <a href="#"><img src="images/powerups/Shield.png" alt="" class="img-responsive"></a>
-                <div class="p-a-sm">
-                  <div class="text-ellipsis">Power Up<br>Shield</div>
-                </div>
-              </div>
-            </div>
-
-            </div>
-            </div>
 
             </div>
           </div>
@@ -1176,1482 +1117,595 @@
           </div>
 
           <div class="tab-pane p-v-sm" id="map_1">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Badlands Traverse</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/amboy.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Amboy</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/amboy.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Amboy</div>
+                  <small class="text-muted"><b>Track:</b> Badlands Traverse</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Route 66</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/amboy2.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Amboy</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/amboy2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Amboy</div>
+                  <small class="text-muted"><b>Track:</b> Route 66</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-          </div>
+            </div>
+            </div>
+				
           </div>
 
           <div class="tab-pane p-v-sm" id="map_2">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Catalan Climb</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/bg.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Barcelona Gracia</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-4">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/bg.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Barcelona Gracia</div>
+                  <small class="text-muted"><b>Track:</b> Catalan Climb</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">EI Carmel Heights</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/bg2.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Barcelona Gracia</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-4">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/bg2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Barcelona Gracia</div>
+                  <small class="text-muted"><b>Track:</b> EI Carmel Heights</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Passeig de Gracia</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/bg3.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Barcelona Gracia</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-4">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/bg3.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Barcelona Gracia</div>
+                  <small class="text-muted"><b>Track:</b> Passeig de Gracia</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-          </div>
+            </div>
+            </div>
+				
           </div>
 
           <div class="tab-pane p-v-sm" id="map_3">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">City Breach</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/bo.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Barcelona Oval</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/bo.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Barcelona Oval</div>
+                  <small class="text-muted"><b>Track:</b> City Breach</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Speedway</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/bo2.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Barcelona Oval</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/bo2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Barcelona Oval</div>
+                  <small class="text-muted"><b>Track:</b> Speedway</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-          </div>
+            </div>
+            </div>
+				
           </div>
 
           <div class="tab-pane p-v-sm" id="map_4">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Coastal Cruise</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/br.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Brighton</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-4">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/br.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Brighton</div>
+                  <small class="text-muted"><b>Track:</b> Coastal Cruise</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Promenade Loop</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/br2.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Brighton</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-4">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/br2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Brighton</div>
+                  <small class="text-muted"><b>Track:</b> Promenade Loop</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Seafront Strip</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/br3.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Brighton</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-4">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/br3.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Hackney</div>
+                  <small class="text-muted"><b>Track:</b> Seafront Strip</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-          </div>
+            </div>
+            </div>
+				
           </div>
 
-           <div class="tab-pane p-v-sm" id="map_5">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
+          <div class="tab-pane p-v-sm" id="map_5">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Central Sprint</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/hack.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Hackney</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-4">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/hack.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Hackney</div>
+                  <small class="text-muted"><b>Track:</b> Central Sprint</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Shoreditch Sweep</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/hack2.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Hackney</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-4">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/hack2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Hackney</div>
+                  <small class="text-muted"><b>Track:</b> Shoreditch Sweep</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Urban Belt</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/hack3.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Hackney</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-4">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/hack3.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Brighton</div>
+                  <small class="text-muted"><b>Track:</b> Urban Belt</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-          </div>
+            </div>
+            </div>
+				
           </div>
 
-          <div class="tab-pane p-v-sm" id="map_6">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
+           <div class="tab-pane p-v-sm" id="map_6">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Downtown Vista</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/hollywood.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Hollywood Hills</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/hollywood.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Hollywood Hills</div>
+                  <small class="text-muted"><b>Track:</b> Downtown Vista</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Hollywood Rift</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/hollywood2.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Hollywood Hills</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/hollywood2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Hollywood Hills</div>
+                  <small class="text-muted"><b>Track:</b> Hollywood Rift</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-          </div>
+            </div>
+            </div>
+				
           </div>
 
           <div class="tab-pane p-v-sm" id="map_7">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Cargo Run</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/docks.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">LA Docks</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/docks.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> LA Docks</div>
+                  <small class="text-muted"><b>Track:</b> Cargo Run</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Pacific Reach</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/docks2.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">LA Docks</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/docks2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> LA Docks</div>
+                  <small class="text-muted"><b>Track:</b> Pacific Reach</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-          </div>
+            </div>
+            </div>
+				
           </div>
 
           <div class="tab-pane p-v-sm" id="map_8">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Harbor Freeway</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/downtown.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">LA Downtown</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-4">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/downtown.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> LA Downtown</div>
+                  <small class="text-muted"><b>Track:</b> Harbor Freeway</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Highrise Ring</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/downtown2.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">LA Downtown</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-4">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/downtown2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> LA Downtown</div>
+                  <small class="text-muted"><b>Track:</b> Highrise Ring</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">The Money Run</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/downtown3.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">LA Downtown</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-4">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/downtown3.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> LA Downtown</div>
+                  <small class="text-muted"><b>Track:</b> The Money Run</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
+            </div>
+            </div>
+				
           </div>
+
+          <div class="tab-pane p-v-sm" id="map_9">
+
+          <div class="col-md-12">
+          <div class="row">
+
+             <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/river.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> LA River</div>
+                  <small class="text-muted"><b>Track:</b> Concrete Basin</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/river2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> LA River</div>
+                  <small class="text-muted"><b>Track:</b> Stormdrain Surge</small>
+                </div>
+              </div>
+            </div>
+
+            </div>
+            </div>
+				
           </div>
           
-          <div class="tab-pane p-v-sm" id="map_9">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
-
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Concrete Basin</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/river.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">LA River</span>
-                </div>
-
-                </div>
-              </div>
-			      </div>
-
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Stormdrain Surge</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/river2.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">LA River</span>
-                </div>
-
-                </div>
-              </div>
-			      </div>
-
-          </div>
-          </div>
-
           <div class="tab-pane p-v-sm" id="map_10">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Descent</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/descent.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Mount Haruna</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/descent.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Mount Haruna</div>
+                  <small class="text-muted"><b>Track:</b> Descent</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-          </div>
+            </div>
+            </div>
+				
           </div>
 
           <div class="tab-pane p-v-sm" id="map_11">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Brooklyn Tour</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/dumbo.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">NY Dumbo</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/dumbo.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> NY Dumbo</div>
+                  <small class="text-muted"><b>Track:</b> Brooklyn Tour</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Manhattan View</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/dumbo2.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">NY Dumbo</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/dumbo2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> NY Dumbo</div>
+                  <small class="text-muted"><b>Track:</b> Manhattan View</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-          </div>
+            </div>
+            </div>
+				
           </div>
 
           <div class="tab-pane p-v-sm" id="map_12">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Russian Steppes</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/rus.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">SanFran Russian Hill</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/rus.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> SanFran Russian Hill</div>
+                  <small class="text-muted"><b>Track:</b> Russian Steppes</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-          </div>
+            </div>
+            </div>
+				
           </div>
 
           <div class="tab-pane p-v-sm" id="map_13">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Bay Area Tour</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/sf.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">SanFran Sausalito</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/sf.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> SanFran Sausalito</div>
+                  <small class="text-muted"><b>Track:</b> Bay Area Tour</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Golden Gate Rush</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/sf2.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">SanFran Sausalito</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/sf2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> SanFran Sausalito</div>
+                  <small class="text-muted"><b>Track:</b> Golden Gate Rush</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-          </div>
+            </div>
+            </div>
+				
           </div>
 
-          <div class="tab-pane p-v-sm" id="map_14">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
+         <div class="tab-pane p-v-sm" id="map_14">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Bayshore Route</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/tokyo.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Tokyo Shutoko</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/tokyo.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Tokyo Shutoko</div>
+                  <small class="text-muted"><b>Track:</b> Bayshore Route</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Wangan-sen</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/race/tokyo2.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Tokyo Shutoko</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/race/tokyo2.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Tokyo Shutoko</div>
+                  <small class="text-muted"><b>Track:</b> Wangan-sen</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-          </div>
+            </div>
+            </div>
+				
           </div>
 
           <div class="tab-pane p-v-sm" id="map_15">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">The Dust Bowl</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/motormach/ambo.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Amboy</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/motormach/ambo.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Amboy</div>
+                  <small class="text-muted"><b>Track:</b> The Dust Bowl</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
+            </div>
+            </div>
+				
           </div>
-          </div>
 
-           <div class="tab-pane p-v-sm" id="map_16">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
+          <div class="tab-pane p-v-sm" id="map_16">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">La Carretera</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/motormach/bar.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">Barcelona</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/motormach/bar.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> Barcelona</div>
+                  <small class="text-muted"><b>Track:</b> La Carretera</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-          </div>
+            </div>
+            </div>
+				
           </div>
 
           <div class="tab-pane p-v-sm" id="map_17">
-				<div class="owl-carousel owl-theme owl-dots-center" data-ui-jp="owlCarousel" data-ui-options="{
-					margin: 20,
-					responsiveClass:true,
-				    responsive:{
-				    	0:{
-				    		items: 2
-				    	},
-				        543:{
-				            items: 3
-				        }
-				      }
-				    }">
 
-				      <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">Figure of 8</span>
-                    </h3>
-                  </div>
+          <div class="col-md-12">
+          <div class="row">
 
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/motormach/8.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">LA Downtown</span>
-                </div>
-
+             <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/motormach/8.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> LA Downtown</div>
+                  <small class="text-muted"><b>Track:</b> Figure of 8</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
-            <div class="col-sm-12">
-                <div class="box">
-                  <div class="box-body text-center r-t">
-                    <h6 class="text-u-c p-v-sm m-a-0 m-t">Track</h6>
-                    <h3 class="m-a-0 m-l m-v">
-                      <sup>✩</sup>
-                      <!-- <span class="text-2x">Map</span> -->
-                      <span class="text-x text-primary">LA Heights</span>
-                    </h3>
-                  </div>
-
-                  <div class="">
-                    <div class="item r" data-id="item-1" data-src="">
-                    <div class="item-media item-media-4by3">
-                      <a class="item-media-content" style="background-image: url('images/maps/motormach/heights.png');"></a>
-                    </div>
-                    <div class="item-info">
-                      <div class="item-overlay bottom text-center">
-                      </div>
-                      <div class="item-overlay bottom text-right">
-                        <a href="#" class="btn-favorite"></a>
-              
-                    </div>
-                  </div>
-                </div>
-
-                <div class="text-center p-a-md">
-                  <h6 class="text-u-c p-v-sm m-a-0 m-t">Location</h6>
-                  <span class="text-2x text-primary">LA Downtown</span>
-                </div>
-
+            <div class="col-xs-6 col-sm-3 col-md-6">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/maps/motormach/heights.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis"><b>Location:</b> LA Downtown</div>
+                  <small class="text-muted"><b>Track:</b> LA Heights</small>
                 </div>
               </div>
-			      </div>
+            </div>
 
+            </div>
+            </div>
+				
           </div>
+
+          <div class="tab-pane p-v-sm" id="powerups">
+
+          <div class="col-md-12">
+          <div class="row">
+
+             <div class="col-xs-6 col-sm-6 col-md-3">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/powerups/Barge.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis">Power Up<br>Barge</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-3">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/powerups/Bolt.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis">Power Up<br>Bolt</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-3">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/powerups/Nitro.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis">Power Up<br>Nitro</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-3">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/powerups/Mine.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis">Power Up<br>Mine</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-3">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/powerups/Repair.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis">Power Up<br>Repair</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-3">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/powerups/Shunt.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis">Power Up<br>Shunt</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-3">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/powerups/Shock.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis">Power Up<br>Shock</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-3">
+              <div class="box p-a-xs">
+                <a href="#"><img src="images/powerups/Shield.png" alt="" class="img-responsive"></a>
+                <div class="p-a-sm">
+                  <div class="text-ellipsis">Power Up<br>Shield</div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+            </div>
+				
           </div>
 
           <div class="tab-pane p-v-sm" id="modshop">
@@ -2968,36 +2022,20 @@
                   </div>
 
                   <div class="box-body">
-                    <small class="m-a-0 text-muted"><b>website is based on aside (admin panel), the purpose of the site is a wiki for the game Blur</b></small>
+                    <small class="m-a-0 text-muted"><b>Blur IIKIX:</b> Here is all the information about site updates, you can also help in development</small>
                   </div>
 
-                <br>
-                </div>
-              </div>
+                  <div class="text-center">
+                    <a href="https://discord.gg/msf3yVtvXS">
+                      <button class="md-btn md-flat m-b-sm w-xs text-primary">Discord</button>
+                    </a>
+                  </div>
 
-              <div class="box">
-        <div class="box-body">
-          <form action="#" class="m-b-md">
-                  <div class="input-group input-group-lg">
-      <input type="text" class="form-control" placeholder="Type keyword">
-      <span class="input-group-btn">
-        <button class="btn b-a no-shadow white" type="button">Search</button>
-      </span>
-    </div>
-  </form>
-              <div class="box m-b-md text-center">
-                <div data-ui-jp="summernote" data-ui-options="{height: 150,
-                  toolbar: [
-                    ['color', ['color']],
-                    ['para', ['ul', 'ol', 'paragraph']],
-                    ['style', ['bold', 'italic', 'underline', 'clear']],
-                    ['height', ['height']]
-                  ]}">
+                  <br>
                 </div>
               </div>
-        </div>
-      </div>
-			  </div>
+			  
+            </div>
           
         </div>
       </div>
@@ -3010,13 +2048,13 @@
   </div>
   <!-- / -->
 
-  <div class="footer black text-info-hover box">
+  <div class="footer box text-info-hover box">
   	<div class="container">
   		<div class="p-y-lg">
   			<div class="m-b-lg text-sm">
   				
-  				<div class="text-muted pull-right pull-none-xs m-b">
-  					<span class="text-primary">IIKIX based on aside &copy; All rights reserved!<br></span>
+  				<div class="pull-right pull-none-xs m-b">
+  					<span class="text-primary"><b>IIKIX based on aside &copy; All rights reserved!</b></span>
   				</div>
   				<div>
 
